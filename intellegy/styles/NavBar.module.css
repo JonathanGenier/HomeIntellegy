@@ -1,0 +1,40 @@
+.logo{
+    float: left;
+    margin-left: 5rem;
+    max-width: 5%;
+}
+
+.nav{
+    margin-left: auto;
+    margin-right: 5rem;
+}
+
+.link {
+    color: var(--dark-bg-color);
+    text-transform: uppercase;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.link:hover, .link:focus{
+    color: var(--light-font-color);
+    text-decoration: none;
+}
+
+.link:after{
+    content: '';
+    display: block;
+    height: .3rem;
+    width: 0%;
+    background-color: var(--light-font-color);
+    transition: all ease-in-out 150ms;
+}
+
+.link:hover::after,.link:focus::after{
+    width: 100%;
+}
+
+.navbar {
+    background-color: var(--light-bg-color);
+}

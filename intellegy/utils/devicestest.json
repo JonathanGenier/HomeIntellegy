@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Light #1",
+      "description": "This is a Light",
+      "state": false,
+      "groupid": 1
+    },
+    {
+      "id": 2,
+      "name": "Light #2",
+      "description": "This is a Light",
+      "state": false,
+      "groupid": 1
+    },
+    {
+      "id": 3,
+      "name": "Light #3",
+      "description": "This is a Light",
+      "state": true,
+      "groupid": 2
+    }
+  ]

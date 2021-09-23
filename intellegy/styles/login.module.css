@@ -1,0 +1,89 @@
+.container, .loginForm, .registerBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    -webkit-box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.85); 
+    box-shadow: 0px 0px 25px 10px rgba(0,0,0,0.85);
+    padding: 15px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 450px;
+}
+
+.registerBox {
+    padding-top: 10px;
+}
+
+.warning {
+    text-align: left;
+}
+
+/*===========================================================
+      FORMS' ELEMENTS
+===========================================================*/
+
+.formWarning {
+    color: red;
+  }
+  
+  .formBw {
+    border: 1px solid red;
+  }
+  
+  .formBn {
+    border:1px solid white;
+  }
+  
+  .formHrTop, .formHrBot {
+    border: 1px solid white;
+    width: 100%;
+  }
+  
+  .formI {
+    border-radius:5px;
+    background-color: lightgray;
+    padding: 1px 10px;
+    font-weight:bold;
+  }
+  
+  .formI:focus {
+    outline: 0;
+    border-radius:5px;
+    background-color:#898885;
+    border:2px solid var(--primary-color);
+    -webkit-box-shadow: 0px 0px 10px 0.1px var(--primary-color);
+    box-shadow: 0px 0px 10px 0.1px var(--primary-color);
+  }
+  
+  .formBtn {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55); 
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
+    background-color:var(--primary-color);
+    border-radius:5px;
+    border:1px solid black;
+    color: black;
+    font-weight:bold;
+    width: 180px;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  .formBtn:hover, .formBtn:focus {
+    outline: 0;
+    -webkit-box-shadow: 0px 0px 20px 0px var(--primary-color); 
+    box-shadow: 0px 0px 20px 0px var(--primary-color);
+    background-color: var(--light-bg-color);
+    border-radius:5px;
+    border:1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+  
+  .formHrTop {
+    margin: 20px 0 5px 0;
+  }
+  
+  .formHrBot {
+    margin: 0 0 20px 0;
+  }

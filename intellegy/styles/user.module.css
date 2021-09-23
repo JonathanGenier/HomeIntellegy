@@ -1,0 +1,102 @@
+.container {
+  position: absolute;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+
+.alert {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+.hubList {
+  position: relative;
+  width: 35%;
+  margin: 2rem;
+  text-align: center;
+  border: 0.1em solid black;
+  border-radius: 0%;
+  overflow: auto;
+  height: 40rem;
+}
+
+.hubSettings {
+  width: 55%;
+  margin: 2rem;
+  text-align: center;
+  display: inline-block;
+  border: 0.1em solid black;
+  border-radius: 0%;
+}
+
+.hubSettings h2{
+  background-color: var(--primary-color);
+  color: var(--dark-font-color);
+  font-weight: bold;
+}
+
+.settingsForm {
+
+}
+
+.settingsForm label{
+  color: var(--light-font-color);
+  font-size: 1.5em;
+  font-weight: bold;
+  margin:1%
+}
+
+.settingsForm span  {
+  color: var(--light-font-color);
+  font-size: 1.5em;
+  margin:1%
+}
+
+.tableList {
+  width: 100%;
+}
+
+.tableList th{
+  background-color: var(--primary-color);
+  color: var(--dark-font-color);
+  font-size: 1.5em;
+}
+
+.tableList td{
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  font-size: 1.2em;
+  outline-offset: -0.1em;
+  transition: all 250ms ease-in-out;
+}
+
+
+.tableList td:focus, .tableList td:hover{
+  outline-offset: -0.2em;
+  outline: 0.1em solid black;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.addBtn{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  padding: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--dark-font-color);
+  border: none;
+  transition: all 100ms ease-in-out;
+}
+
+.addBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}

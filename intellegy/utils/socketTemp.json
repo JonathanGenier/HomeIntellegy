@@ -1,0 +1,16 @@
+{
+    "user": {
+        "username": "socket",
+        "password": "admin",
+        "firstName": "Jonathan",
+        "lastName": "Genier",
+        "email": "socket@test.com",
+        "country": "Canada",
+        "region": "Ontario",
+        "city": "Ottawa",
+        "address": "801 Aviation Pkwy",
+        "postalCode": "K1K 4R3",
+        "listServers": ["NONE"],
+        "id": "159753"
+      }
+}

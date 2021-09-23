@@ -1,0 +1,201 @@
+{
+    "Canada": {
+        "regionType": "Province",
+        "regions": {
+            "Alberta": {
+                "legalAge": 18
+            },
+            "British Columbia": {
+                "legalAge": 19
+            },
+            "Manitoba": {
+                "legalAge": 18
+            },
+            "New Brunswick": {
+                "legalAge": 19
+            },
+            "Newfoundland and Labrador": {
+                "legalAge": 19
+            },
+            "Northwest Territories": {
+                "legalAge": 19
+            },
+            "Nova Scotia": {
+                "legalAge": 19
+            },
+            "Nunavut": {
+                "legalAge": 19
+            },
+            "Ontario": {
+                "legalAge": 19
+            },
+            "Prince Edward Island": {
+                "legalAge": 19
+            },
+            "Québec": {
+                "legalAge": 18
+            },
+            "Saskatchewan": {
+                "legalAge": 19
+            },
+            "Yukon Territory": {
+                "legalAge": 19
+            }
+        }
+    },
+    "United States": {
+        "regionType": "State",
+        "regions": {
+            "Alabama": {
+                "legalAge": 21
+            },
+            "Alaska": {
+                "legalAge": 21
+            },
+            "Arizona": {
+                "legalAge": 21
+            },
+            "Arkansas": {
+                "legalAge": 21
+            },
+            "California": {
+                "legalAge": 21
+            },
+            "Colorado": {
+                "legalAge": 21
+            },
+            "Connecticut": {
+                "legalAge": 21
+            },
+            "Delaware": {
+                "legalAge": 21
+            },
+            "Florida": {
+                "legalAge": 21
+            },
+            "Georgia": {
+                "legalAge": 21
+            },
+            "Hawaii": {
+                "legalAge": 21
+            },
+            "Idaho": {
+                "legalAge": 21
+            },
+            "Illinois": {
+                "legalAge": 21
+            },
+            "Indiana": {
+                "legalAge": 21
+            },
+            "Iowa": {
+                "legalAge": 21
+            },
+            "Kansas": {
+                "legalAge": 21
+            },
+            "Kentucky": {
+                "legalAge": 21
+            },
+            "Louisiana": {
+                "legalAge": 21
+            },
+            "Maine": {
+                "legalAge": 21
+            },
+            "Maryland": {
+                "legalAge": 21
+            },
+            "Massachusetts": {
+                "legalAge": 21
+            },
+            "Michigan": {
+                "legalAge": 21
+            },
+            "Minnesota": {
+                "legalAge": 21
+            },
+            "Mississippi": {
+                "legalAge": 21
+            },
+            "Missouri": {
+                "legalAge": 21
+            },
+            "Montana": {
+                "legalAge": 21
+            },
+            "Nebraska": {
+                "legalAge": 21
+            },
+            "Nevada": {
+                "legalAge": 21
+            },
+            "New Hampshire": {
+                "legalAge": 21
+            },
+            "New Jersey": {
+                "legalAge": 21
+            },
+            "New Mexico": {
+                "legalAge": 21
+            },
+            "New York": {
+                "legalAge": 21
+            },
+            "North Carolina": {
+                "legalAge": 21
+            },
+            "North Dakota": {
+                "legalAge": 21
+            },
+            "Ohio": {
+                "legalAge": 21
+            },
+            "Oklahoma": {
+                "legalAge": 21
+            },
+            "Oregon": {
+                "legalAge": 21
+            },
+            "Pennsylvania": {
+                "legalAge": 21
+            },
+            "Rhode Island": {
+                "legalAge": 21
+            },
+            "South Carolina": {
+                "legalAge": 21
+            },
+            "South Dakota": {
+                "legalAge": 21
+            },
+            "Tennessee": {
+                "legalAge": 21
+            },
+            "Texas": {
+                "legalAge": 21
+            },
+            "Utah": {
+                "legalAge": 21
+            },
+            "Vermont": {
+                "legalAge": 21
+            },
+            "Virginia": {
+                "legalAge": 21
+            },
+            "Washington": {
+                "legalAge": 21
+            },
+            "West Virginia": {
+                "legalAge": 21
+            },
+            "Wisconsin": {
+                "legalAge": 21
+            },
+            "Wyoming": {
+                "legalAge": 21
+            }
+        }
+    }
+}

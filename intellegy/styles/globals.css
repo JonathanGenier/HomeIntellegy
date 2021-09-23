@@ -1,0 +1,145 @@
+/* ----- NOTE -----
+
+std = Standard
+ui  = User Interface
+bg  = BackGround
+ft  = FonT
+clr = CoLoR
+wrn = WaRniNg
+
+-----------------*/
+
+/*===========================================================
+       GLOBAL VARIABLES
+===========================================================*/
+
+:root {
+  --primary-color: rgb(56, 149, 255);
+  --light-bg-color: white;
+  --light-font-color: black;
+  --dark-bg-color: rgb(66, 66, 66);
+  --dark-font-color: white;
+
+}
+
+/*===========================================================
+      Buttons
+===========================================================*/
+
+.std-btn, .std-btn-lg {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55); 
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.55);
+  background-color:#c99d00;
+  border-radius:5px;
+  border:1px solid black;
+  color: black;
+  font-weight:bold;
+}
+
+.std-btn-lg {
+  font-family:Arial;
+  font-size:15px;
+  padding: 5px 24px;
+  font-size: x-large;
+}
+
+.std-btn:hover, .std-btn:focus, .std-btn-lg:hover, .std-btn-lg:focus {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(201, 157, 0, 0.55); 
+  box-shadow: 0px 0px 20px 0px rgba(201, 157, 0, 0.55);
+  background-color:#800b0b;
+  border-radius:5px;
+  border:1px solid #c99d00;
+  color: #c99d00;
+  outline: 0;
+}
+
+.std-btn:active {
+position:relative;
+top:1px;
+}
+
+/*===========================================================
+      BORDERS
+===========================================================*/
+
+.std-borders {
+  border : 1px solid black;
+  border-radius: 5px;
+}
+
+/*===========================================================
+      FONTS
+===========================================================*/
+
+.std-ft-sm, .std-ft-md, .std-ft-lg, .std-ft-xl, .std-ft-xxl,
+  h1, h2, h3, h4, h5, h6 {
+      font-family: 'Arial';
+}
+
+.std-ft-sm {
+  font-size: 14px;
+}
+
+.std-ft-md {
+  font-size: 16px;
+}
+
+.std-ft-lg {
+  font-size: 18px;
+}
+
+.std-ft-xl {
+  font-size: 20px;
+}
+
+.std-ft-xxl {
+  font-size: 25px;
+}
+
+.ft-light {
+  color: var(--std-ft-clr-light);
+}
+
+.ft-dark {
+  color: var(--std-ft-clr-dark);
+}
+
+.link:hover {
+  color: var(--link-clr);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*===========================================================
+      INPUTS
+===========================================================*/
+
+.std-tb, .std-tb-lg {
+  border-radius:6px;
+  background-color:#9b832f;
+  border:1px solid #c99d00;
+  padding: 0px 12px;
+  font-family: 'Arial';
+font-weight:bold;
+}
+
+.std-tb-lg {
+  padding: 12px 24px;
+  font-size:15px;
+  font-size: x-large;
+}
+
+.std-tb:focus {
+  outline: 0;
+  border-color: black;
+  -webkit-box-shadow: 0px 0px 25px 0.1px var(--focus-clr);
+  box-shadow: 0px 0px 25px 1px var(--focus-clr);
+  color: black;
+}
+
+.std-tb::placeholder{
+  color: #585858;
+}
+
+
+

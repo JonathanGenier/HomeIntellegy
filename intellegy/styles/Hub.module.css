@@ -1,0 +1,84 @@
+.card{
+    margin: 1rem;
+    width: 20%;
+}
+
+.cardContainer{
+    display: flex;
+}
+
+.tabs {
+    display: inline-block;
+    color: black;
+}
+
+.tab_active, .tab {
+    color: var(--light-font-color);
+    padding: 0;
+    border: none;
+    background-color: white;
+    margin: 1rem;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.tab_active:after, .tab:after{
+    content: '';
+    display: block;
+    height: .2rem;
+    width: 0%;
+    background-color: var(--light-font-color);
+    transition: all ease-in-out 150ms;
+}
+
+.tab_active:after{
+    width: 100%;
+}
+
+.title{
+    font-size: 2.5em;
+    text-transform: capitalize;
+    margin: auto;
+    text-align: center;
+}
+
+.backBtn{
+    display: block;
+    width: 8rem;
+    margin-left: auto;
+    margin-right: 5%;
+    background: var(--primary-color);
+	padding: .75rem 1.25rem;
+	border-radius: 10rem;
+	color: var(--light-font-color);
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	letter-spacing: .1rem;
+	transition: all 300ms ease-in-out;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.backBtn::after{
+    content: '';
+    position: absolute;
+	bottom: 0;
+	left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: var(--primary-color);
+    filter: brightness(85%);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+
+.backBtn:hover, .backBtn:focus {
+    cursor: pointer;
+}
+
+.backBtn:hover::after, .backBtn:focus::after {
+    width: 100%;
+}

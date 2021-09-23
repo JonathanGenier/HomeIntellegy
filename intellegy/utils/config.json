@@ -1,0 +1,6 @@
+{
+    "wsAddress": "ws://127.0.0.1:8000",
+    "port": "8000",
+    "dbAddress": "http://localhost:3000",
+    "jwt_key": "f3904848-c827-48d6-94df-a6c522ff7e74"
+}
